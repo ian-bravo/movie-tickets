@@ -1,7 +1,7 @@
 //Business Logic for Movies --------------
 function Showings() {
   this.movieList = {};
-  this.assignId = 0
+  this.currentId = 0;
 }
 
 Showings.prototype.assignId = function () {
@@ -9,7 +9,10 @@ Showings.prototype.assignId = function () {
   return this.currentId;
 }
 
-
+Showings.prototype.addMovie = function(movie) {
+  movie.id = this.assignId();
+  this.movieList[movie.id] = movie;
+}
 
 
 //User Interface Logic --------
