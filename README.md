@@ -14,13 +14,14 @@ Code: Showings.prototype.assignId = function () {
 }
 Expected Output: movie1.currentId[1]
 
-<!-- Describe: Showings.prototype.addMovie = function (movie)
+Describe: Showings.prototype.addMovie = function (movie)
 
-Test 1: It should make a function that add on a movie
+Test 1: It should make a function that will add a movie
 Code: Showings.prototype.addMovie = function (movie) {
   movie.id = this.assignID();
+  this.movieList[movie.id] = movie
 }
-Expected Output: this.assignID(); -->
+Expected Output: movie1[1]
 
 
 
