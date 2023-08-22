@@ -1,5 +1,7 @@
-//Business Logic --------------
-
+//Business Logic for Movies --------------
+function Showings() {
+  this.movieList = {};
+}
 
 
 
