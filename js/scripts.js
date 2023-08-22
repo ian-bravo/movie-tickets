@@ -1,6 +1,7 @@
 //Business Logic for Movies --------------
 function Showings() {
   this.movieList = {};
+  this.assignId = 0
 }
 
 Showings.prototype.assignId = function () {
