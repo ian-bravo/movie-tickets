@@ -23,6 +23,21 @@ Code: Showings.prototype.addMovie = function (movie) {
 }
 Expected Output: movie1[1]
 
+Describe: Movie(movieTitle, movieTimes, movieRating, movieRelease);
+
+Test 1: It should contain properties of Movie
+Code: 
+function Movie (movieTitle, movieTimes, movieRating, movieRelease) {
+  this.movieTitle = movieTitle;
+  this.movieTimes = movieTimes;
+  this.movieRating = movieRating;
+  this.movieRelease = movieRelease;
+}
+Expected Output: 
+  movieTitle: 
+  movieTimes: 
+  movieRating:
+  movieRelease:
 
 
 ```
